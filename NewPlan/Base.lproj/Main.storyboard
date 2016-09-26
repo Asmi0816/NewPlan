@@ -28,6 +28,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="appScreen" destination="8bC-Xf-vdC" id="DDN-Eq-gO6"/>
                         <outlet property="buttonEffect" destination="OgH-hq-Efb" id="qgs-MV-zbc"/>
                     </connections>
                 </viewController>

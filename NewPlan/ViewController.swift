@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController
 {
 
+    @IBOutlet weak var appScreen: UIView!
     @IBOutlet weak var buttonEffect: UIButton!
     override func viewDidLoad()
     {
@@ -28,7 +29,8 @@ class ViewController: UIViewController
     @IBAction func buttonClick(sender: UIButton) ->Void
         
     {
-       
+       buttonEffect.backgroundColor = makeRandomColor()
+       appScreen.backgroundColor = makeRandomColor()
     }
     private func makeRandomColor() -> UIColor
     {
